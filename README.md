@@ -1,6 +1,7 @@
 # FiveM Parking Lights
 
 **What does this script do?**
+
 This script was built for the LEO Devs that wanted to add different patterns for cars that are parked/stopped compared to driving.
 
 **How do I config it?**
