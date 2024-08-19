@@ -27,7 +27,7 @@ CreateThread(function()
         Wait(500)
         local ped = PlayerPedId()
         local vehicle = GetVehiclePedIsIn(ped, false)
-        if IsPedInVehicle(ped, vehicle, false) or DoesEntityExist(vehicle) then
+        if IsPedInVehicle(ped, vehicle, false) and DoesEntityExist(vehicle) then
             if IsVehicleStopped(vehicle) then
                 local modelHash = GetEntityModel(vehicle)
                 if Vehicles[modelHash] then
