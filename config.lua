@@ -1,6 +1,6 @@
 Vehicles = {
     [GetHashKey('police')] = {
-        parkExtras = {2},
-        drivingExtras = {1},
+        pExtras = {2},
+        dExtras = {1},
     }
 }
